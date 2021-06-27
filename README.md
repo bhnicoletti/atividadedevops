@@ -15,5 +15,3 @@ Estará disponível no endereço http://localhost:8080/pessoas
 
 ### JSON para referência
 { "id" : 1, "nome" : "Bruno"}
-
-## Necessário maven na máquina
