@@ -1,14 +1,14 @@
 FROM openjdk:11
 
-RUN apt-get update
-RUN apt-get install -y maven
+#RUN apt-get update
+#RUN apt-get install -y maven
 
-COPY pom.xml /app/
-COPY src /app/src/
+#COPY pom.xml /app/
+#COPY src /app/src/
 
 WORKDIR /app
 
-RUN mvn package
+#RUN mvn package
 
 COPY target/atividadedevops-v1.jar /app/devops.jar
 
