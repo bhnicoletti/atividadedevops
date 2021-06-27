@@ -17,3 +17,5 @@ Estará disponível no endereço http://localhost:8080/pessoas
 { "id" : 1, "nome" : "Bruno"}
 
 ## Necessário maven na máquina
+
+> Muito bom! Validado. (Afonso Barrenha)
