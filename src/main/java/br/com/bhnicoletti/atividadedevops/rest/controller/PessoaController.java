@@ -18,6 +18,7 @@ public class PessoaController {
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
     public List<Pessoa> listar(){
+        System.out.println("listando");
        return pessoaService.listarTodos();
     }
 
